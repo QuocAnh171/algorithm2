@@ -16,6 +16,6 @@ password.send_keys(Keys.RETURN)
 
 sleep(20)
 
-name = driver.find_element_by_class_name("dislay_name")
+name = driver.find_element_by_class_name("dislay-name")
 print(name.text)
 
