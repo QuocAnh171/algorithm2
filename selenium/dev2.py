@@ -16,7 +16,7 @@ password.send_keys('123456aA')
 password.send_keys(Keys.RETURN)
 
 sleep(10)
-print(get_data.page_source)
+#print(get_data.page_source)
 while True:
     try:
         ten = get_data.find_element_by_class_name('display-name')
